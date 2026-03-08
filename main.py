@@ -445,8 +445,7 @@ def gameplay():
 
             if len(skyClouds) < 5 and random.randrange(0, 300) == 10:
                 Cloud(
-                    width_screen,
-                    random.randrange(height_screen // 5, height_screen // 2),
+                    width_screen, random.randrange(height_screen / 5, height_screen / 2)
                 )
 
             gamer_Dino.update()
